@@ -821,7 +821,7 @@ notify_notification_show(NotifyNotification *notification, GError **error)
 	}
 
 	/* If attached to a widget or status icon, modify x and y in hints */
-	_notify_notification_update_applet_hints(notification);
+	/* _notify_notification_update_applet_hints(notification); */
 
 	action_array = _gslist_to_string_array(priv->actions);
 
