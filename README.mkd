@@ -1,0 +1,14 @@
+README
+======
+Hello, this is my hacked version of libnotify. It is supposed to be used with
+my notification-daemon engine:
+
+http://github.com/tatofoo/notification-daemon-engine-coco
+
+What does it do?
+----------------
+Well, it ignores requests from applications to set the notification position
+near an icon or widget.
+
+For now it is just a commented out line, but in the next days I'll be adding
+a key to the gconf schema so you can enable or disable this hack.
